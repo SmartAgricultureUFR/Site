@@ -31,8 +31,9 @@ main h2{
 
 .mapa iframe{
     position: absolute;
-    right: 7rem;
-    bottom: 33rem;
+    right: 15rem;
+    bottom: 32rem;
+    align-content: center;
     justify-content: center;
 }
 
