@@ -1,0 +1,73 @@
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+p#titulo{     
+    font: bold 2rem 'Poiret One' ;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+}
+
+p#subtitulo{
+    font: 1.5rem 'Poiret One';
+    color: rgb(213, 221, 230);
+    margin: 1%;
+}
+
+.postTitle{
+    padding-left: 0.5rem;
+    font: bold 2rem "Poiret One";
+    color: black;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.post{
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    font: normal 1.5rem "Raleway";
+    color: darkgray;
+}
+
+.buttom:hover .postTitle {
+    color:white;
+  }
+  
+.buttom:hover .post{
+    color:white;
+  }
+
+.buttom:focus{
+  outline: none;
+}
+
+.buttom:hover{
+  background: #2b4b68d2;
+}
+
+.buttom:hover:before{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+}
+
+.buttom:hover:after{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+

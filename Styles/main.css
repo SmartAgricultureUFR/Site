@@ -1,0 +1,49 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(content.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+  }
+
+  a{text-decoration: none;}
+  
+  html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+    text-decoration: none;
+  }
+  
+  html,
+  body {
+    /*background-image: url("../assets/back-text.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    height: 100vh;
+    font-family: "Source Sans Pro";
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+body {font-size: 1.6rem;}
+  
+main{
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  a:link{text-decoration: none;}
+
+
+main{
+   display: flex;
+   margin-left: 50px;
+ }
+

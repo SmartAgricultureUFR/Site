@@ -1,0 +1,24 @@
+.rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "cpr idnt";
+    text-align: center;
+    align-content: 0;
+}
+
+
+.rodape div{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+footer{
+    display: block;
+    position: absolute;
+    font-family: 'Raleway','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #072041;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+}

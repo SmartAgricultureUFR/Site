@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=Raleway:wght@200&display=swap');
+
+
+main h2{
+    font-family: "Bebas Neue";
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+.content a {text-decoration: 0; color: black;}
+
+.content a:hover{
+    color: gray;
+    font-weight: bolder;
+}
+
+.content p{
+    position: absolute;
+    margin-top: 75px;
+    margin-right: 100px;
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.content p br{ 
+    display: block;
+    content:"";
+    margin-top: 15px;
+   }
+
+.mapa iframe{
+    position: absolute;
+    right: 7rem;
+    bottom: 33rem;
+    justify-content: center;
+}
+
+
+.content a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: darkgray;
+    transition: width .3s;
+}
+
+.content a:hover::after{
+    width: 50%;
+    transition: width .3s;
+}
+
