@@ -21,9 +21,9 @@
   
   html,
   body {
-    /*background-image: url("../assets/back-text.jpg");
+    background-image: url("../Assets/background.png");
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: "Source Sans Pro";
     text-rendering: optimizelegibility;
