@@ -30,9 +30,9 @@ main h2{
    }
 
 .mapa iframe{
-    position: absolute;
-    right: 15rem;
-    bottom: 32rem;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
     align-content: center;
     justify-content: center;
 }
@@ -71,4 +71,14 @@ main h2{
 
 .bloco ul li{
     list-style: none;
+}
+
+main div #about{
+    display:block;
+    text-align: center;
+    margin-top: 15rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    font-size: 3rem;
+
 }

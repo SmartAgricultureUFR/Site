@@ -1,0 +1,122 @@
+@media (max-width: 350px){
+    
+    html{font-size:5%;}
+      
+    header .container{display: block; justify-content: center;}
+    header img {width: 5rem;} 
+    header .head-content h2{display: none;}
+    header nav ul li a{font-size: 0.2rem; display: flex; }
+    
+    header{text-align: center;}
+
+    main{margin-right: 5rem;}
+    main div{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1rem;
+        }
+
+    .bloco h2{font-size: 2rem;}
+    
+    .mapa{display: none;}
+    
+    main div #about{
+        display:block;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+    }
+
+
+@media (max-width: 500px){
+    
+    html{font-size:15%;}
+      
+    header .container{display: block; justify-content: center;}
+    header img {width: 5rem;} 
+    header .head-content h2{font-size: 1rem;}
+    header nav ul li a{font-size: 1rem; display: flex; justify-content: center; padding: 1rem;}
+    
+    header{text-align: center;}
+
+    main{margin-right: 5.5rem;}
+    main div{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1rem;
+        }
+
+    .bloco h2{font-size: 3rem;}
+    .mapa iframe{display: none;}
+     
+    main div #about{
+        display:block;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 2rem;
+    
+    }
+
+footer
+{
+    font-size: 0.7rem;
+}
+}
+
+@media (max-width: 900px){
+    
+    html{font-size:15%;}
+      
+    header .container{display: block; justify-content: center;}
+    header img {width: 5rem;} 
+    header .head-content h2{font-size: 1rem;}
+    header nav ul li a{font-size: 1rem; display: flex; justify-content: center; padding: 1rem;}
+    
+    header{text-align: center;}
+
+    main{margin-right: 5.5rem;}
+    main div{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1rem;
+        }
+
+    .bloco h2{font-size: 3rem;}
+    .content{display: block; align-items: center;}
+
+    
+    .mapa iframe{
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35rem;
+        height: 40rem;
+    }
+
+    main div #about{
+        display:block;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    
+    }   
+
+    footer
+    {
+        font-size: 0.7rem;
+    }
+    }
