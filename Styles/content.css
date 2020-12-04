@@ -97,3 +97,8 @@ figcaption a:hover::after{
 main h2{
     font-size: 3rem;
 }
+
+main div #b-contato{
+    font-size: 2rem;
+    width: 75rem;
+}

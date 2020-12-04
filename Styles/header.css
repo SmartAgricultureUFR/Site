@@ -6,8 +6,7 @@ header {
 
 header h2 {
   display: inline;
-  position: absolute;
-  margin-left: 12rem;
+  margin-left: -20rem;
   color: white;
   font-weight: lighter;
   font-family: "Open Sans Condensed";
