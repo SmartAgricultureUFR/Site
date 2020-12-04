@@ -35,10 +35,10 @@
         </div>
     </header>   
 
-
+<main class="content" id="home">
     
     <nav class="nav-tabs">
-        <h2>ÁREAS DE ATUAÇÃO:</h2>
+        <h2>ÁREAS DE ATUAÇÃO</h2>
     <ul>
         <li>
             <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
@@ -49,7 +49,7 @@
                 melhorar os processos de preparo do solo, plantio, aplicação de fertilizantes e defensivos.
             </article>
             <h2>FERRAMENTAS:</h2>
-            <article>
+            <article id="li-desc">
                 Arduíno, motores de passo, módulos PWM, módulos relé,
                 Circuitos Elétricos, Motores CC entre outros
             </article>
@@ -65,7 +65,7 @@
                 e permitindo o controle dos mesmo em campo.
             </article>
             <h2>FERRAMENTAS:</h2>
-            <article>
+            <article id="li-desc">
                 Arduíno, módulo LoRA, sensor de temperatura, umidade, pluviometro 
             </article>
         </div>
@@ -82,7 +82,7 @@
                 doenças, realizar contagem de objetos e outros objetivos que podem ser alcançados com a Inteligência Artificial.
             </article>
             <h2>FERRAMENTAS:</h2>
-            <article>
+            <article id="li-desc">
                 Python, OpenCV, Pandas, Numpy, Matplotlib, Google Colab, Jupyter Notebook.
             </article>
         </div>
@@ -97,7 +97,7 @@
                 No geral a união de todas áreas de atuação do projeto em conjuntos.
             </article>
             <h2>FERRAMENTAS:</h2>
-            <article>
+            <article id="li-desc">
                 Arduino, Inventor 3D, Ponte H, Motores, Módulos relé, Circuitos elétricos, Soldas, Ferramentas Manuais e outros.
             </article>
         </div> 
@@ -107,12 +107,46 @@
 </nav>           
 </div>
 </div>
-                
 
-<main class="content" id="home"></main>
+<div class="blocos">
+    <div class="bloco" id="bloco-video" style="text-align: center;">
+        <h1>Vídeo Promocional</h1>
+        <figure id="customcontrols">
+        <video height="600" controls id="video">
+            <source src="./Assets/SmartAgriculture_insta.mp4" type="video/mp4">
+        </video> 
+        <figcaption>
+            <a href="#" id="pl-bttn">▶</a>
+        </figcaption>
+        </figure>        
+    </div>
+    
+</div>
+
+</main>
         
 
 <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+<script>
+    var moviecontainer = document.getElementById("customcontrols"),
+    movie = moviecontainer.querySelector("video"),
+    controls = moviecontainer.querySelector("figcaption"),
+    playpause = controls.querySelector("a");
+    movie.removeAttribute("controls");
+    controls.style.display = "block";
+
+    playpause.addEventListener("click", function(e) { 
+	e.preventDefault()
+	if (movie.paused) {
+		movie.play();
+		playpause.innerHTML = "◼";
+	} else { 
+		movie.pause();
+		playpause.innerHTML = "►";
+	}
+})
+</script>
 </body>
 </html>
         

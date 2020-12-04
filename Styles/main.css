@@ -46,6 +46,25 @@ main{
 
 main{
    display: flex;
+   justify-content: space-between;
    margin-left: 50px;
  }
 
+#home{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 75%;
+}
+
+
+#bloco-video{
+    width: 350px;
+    overflow:hidden;
+    display:block;
+    height: 700px;  
+}
+
+#video{
+  margin-left: -375px;
+}
