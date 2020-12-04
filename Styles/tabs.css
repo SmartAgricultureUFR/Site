@@ -1,9 +1,9 @@
 .nav-tabs{
-    width: 600px;
-    height: 400px;
-    margin: 100px auto;
+    width: 60rem;
+    height: 40rem;
+    margin: 10rem auto;
     background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     position: relative;
     font-family: "Raleway";
     text-align: center; 
@@ -29,9 +29,7 @@
     color:#fff;
     cursor: pointer;
     text-align: center;
-    
 }
-
 
 .nav-tabs .rd_tab { 
 display:none;
@@ -48,8 +46,8 @@ background-color: rgba(255, 255, 255, 0.75);
 border-radius: 0px 0px 15px 15px;
 display: none;
 position: absolute;
-height: 320px;
-width: 600px;
+height: 32rem;
+width: 60rem;
 left: 0;	
 }
 
@@ -57,10 +55,10 @@ left: 0;
 display: block;
 }
 .tab-content h2{
-padding: 10px;
+padding: 1rem;
 color: #87d3b7;
 }
 .tab-content article{
-padding: 10px;
+padding: 1rem;
 color: #555;
 }

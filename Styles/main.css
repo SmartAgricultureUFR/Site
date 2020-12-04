@@ -16,7 +16,7 @@
   a{text-decoration: none;}
   
   html {
-    /* a cada 1rem será considera 10px */
+    /* a cada 1rem será considerado 10px */
     font-size: 62.5%;
     text-decoration: none;
   }
@@ -37,8 +37,8 @@
 body {font-size: 1.6rem;}
   
 main{
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
   }
 
   a:link{text-decoration: none;}
@@ -46,25 +46,24 @@ main{
 
 main{
    display: flex;
-   justify-content: space-between;
-   margin-left: 50px;
+   justify-content: center;
+   margin-left: 5rem;
  }
 
 #home{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   width: 75%;
 }
 
-
 #bloco-video{
-    width: 350px;
+    width: 35rem;
     overflow:hidden;
     display:block;
-    height: 700px;  
+    height: 70rem;  
 }
 
 #video{
-  margin-left: -375px;
+  margin-left: -37.5rem;
 }
