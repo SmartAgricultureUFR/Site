@@ -80,5 +80,17 @@ main div #about{
     margin-right: 15rem;
     margin-left: 15rem;
     font-size: 3rem;
-
 }
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main div #bloco-index{font-size: 3rem; width: 100rem; }
+
+main div #li-desc{
+    font-size: 2rem;
+}
+

@@ -2,6 +2,7 @@
 @import url(footer.css);
 @import url(content.css);
 @import url(response.css);
+@import url(tabs.css);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=Raleway:wght@200&display=swap');
 
 * {
